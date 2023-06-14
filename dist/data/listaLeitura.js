@@ -33,4 +33,5 @@ export const listaLeitura = [
         titulo: "The Dark Magician Transmigrates After 66666 Years",
     },
 ];
-export default listaLeitura;
+export { listaLeitura };
+
