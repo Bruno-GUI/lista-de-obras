@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const listaLeitura = [
+export const listaLeitura = [
     {
         titulo: "Duke Pendragon",
     },
@@ -35,4 +33,4 @@ const listaLeitura = [
         titulo: "The Dark Magician Transmigrates After 66666 Years",
     },
 ];
-exports.default = listaLeitura;
+export default listaLeitura;

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const obrasLidas = [
     {
         titulo: "Martial Peak",
@@ -38,4 +36,4 @@ const obrasLidas = [
         comentario: "A obra em questão é incrível! Seus traços no ínicio são bem simples, mas ao decorrer da obra o autor melhora muito em vários aspectos, é uma obra muito engraçada onde você aprende valores da vida e ainda se diverte demais, uma das melhores."
     }
 ];
-exports.default = obrasLidas;
+export default obrasLidas;

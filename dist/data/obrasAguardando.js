@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const obrasAguardando = [
     {
         titulo: "The Return of the Iron-Blood Sword Hunter",
@@ -27,4 +25,4 @@ const obrasAguardando = [
         data: "14/06/2023"
     }
 ];
-exports.default = obrasAguardando;
+export default obrasAguardando;

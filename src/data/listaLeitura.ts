@@ -1,6 +1,6 @@
 import { Obra } from "../types";
 
-const listaLeitura: Obra[] = [
+export const listaLeitura: Obra[] = [
   {
     titulo: "Duke Pendragon",
   },
