@@ -1,4 +1,4 @@
-const obrasAguardando = [
+var obrasAguardando = [
     {
         titulo: "The Return of the Iron-Blood Sword Hunter",
         capitulosParaLer: 29,

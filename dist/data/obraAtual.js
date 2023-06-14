@@ -1,4 +1,4 @@
-const obraAtual = [
+var obraAtual = [
     {
         titulo: "Damn Reincarnation",
         capitulosLidos: 3,

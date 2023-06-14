@@ -1,4 +1,4 @@
-const obrasLidas = [
+var obrasLidas = [
     {
         titulo: "Martial Peak",
         capitulosLidos: 3333,

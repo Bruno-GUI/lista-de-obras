@@ -1,4 +1,4 @@
-export const listaLeitura = [
+export var listaLeitura = [
     {
         titulo: "Duke Pendragon",
     },
@@ -33,5 +33,4 @@ export const listaLeitura = [
         titulo: "The Dark Magician Transmigrates After 66666 Years",
     },
 ];
-export { listaLeitura };
-
+export default listaLeitura;
