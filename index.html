@@ -4,6 +4,22 @@
     <title>My Project</title>
   </head>
   <body>
-    <script src="dist/bundle.js"></script>
+    <ul id="lista-leitura"></ul>
+
+    <script src="dist/listaLeitura.js"></script>
+    <script>
+      // Acesso à lista de leitura do arquivo listaLeitura.js
+      var listaLeitura = window.listaLeitura;
+
+      // Referência ao elemento <ul> no qual a lista será exibida
+      var listaElement = document.getElementById("lista-leitura");
+
+      // Preenchendo a lista de leitura no elemento <ul>
+      listaLeitura.forEach(function (obra) {
+        var liElement = document.createElement("li");
+        liElement.textContent = obra.titulo;
+        listaElement.appendChild(liElement);
+      });
+    </script>
   </body>
 </html>
