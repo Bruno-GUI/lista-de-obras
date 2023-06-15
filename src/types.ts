@@ -4,5 +4,5 @@ export interface Obra {
     capitulosParaLer?: string | number;
     nota?: number;
     comentario?: string;
-    data?: string | number;
+    data?: string;
   }

@@ -1,7 +1,10 @@
-var obraAtual = [
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const obraAtual = [
     {
         titulo: "Damn Reincarnation",
         capitulosLidos: 3,
+        data: "14/06/2023",
     }
 ];
-export default obraAtual;
+exports.default = obraAtual;

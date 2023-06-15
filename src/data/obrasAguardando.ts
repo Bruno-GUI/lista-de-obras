@@ -21,11 +21,6 @@ const obrasAguardando: Obra[] = [
     capitulosParaLer: 15,
     data: "12/06/2023"  
   },
-  {
-    titulo: "The Greatest Estate Designer",
-    capitulosLidos: 103,
-    data: "14/06/2023"
-  }
 ];
 
 export default obrasAguardando;
